@@ -1,0 +1,198 @@
+head{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    font: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+    color: #777777;
+    background: url(../images/papyrus.png) ;
+}
+
+header{
+    width: 100%;
+    background-color: #ffffff;
+    height: 87px;
+    border-bottom: 5px solid #cccccc;
+    
+}
+
+
+h1{
+    color: #ffffff;
+    background-color: #4aaaa5;
+    float: left;
+    padding: 25px; 
+    margin: 0%;
+    
+}
+
+h2{
+    color: #4aaaa5;
+    text-align: left;
+    border-bottom: solid 5px #dddddd
+}
+#Pic{
+    float: left;
+    margin: 5%;
+
+}
+
+p{
+    text-align: left;
+    margin: 10%;
+}
+
+#Tool-Bar{
+
+    margin:0%;
+    width: 30%;
+    float:right;
+    color: #777777;
+}
+
+.container{
+    width: 960px;
+    height: 400px;
+    background-color: white;
+}
+
+#About{
+
+    text-align: left;
+    width: 960px;
+    height: 100%;
+    
+}
+
+#Portfolio{
+    width: 960px;
+    height: 100%;
+}
+
+#Img1{
+    float: left;
+    width: 48%;
+    height: 48%;
+    
+}
+
+#Img2{
+    float: right;
+    width: 48%;
+    height: 48%
+}
+ #Img3{
+    float: left;
+    width: 48%;
+    height: 48%
+ }
+
+ #Img4{
+    float: right;
+    width: 48%;
+    height: 48%
+ }
+
+ #Img5{
+    float:left;
+    width: 48%;
+    height: 48%
+ }
+
+footer{ 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 10px;
+    background-color: #777777;
+    height: 60px;
+}
+
+form{ 
+    width: 200px
+}
+
+@media screen and (max-width: 980px){}
+
+
+
+@media screen and (max-width:768px) {
+
+    .container{
+        width: 600px;
+    }
+
+    #Tool-Bar{
+       
+
+}
+
+
+@media screen and (max-width:640px){
+
+    .container { 
+        width: 500px;
+        height: 100%;
+        float: middle;
+    }
+
+    header{
+    
+    }
+    h1{
+        text-align: center;
+        width: 100%;
+        border-bottom: solid 5px #dddddd
+
+    }
+
+    #Tool-Bar{
+        text-align: center;
+        width: 100%;
+        
+        background-color: white
+    }
+
+    #Pic {
+        width:80%;
+        height: 75%
+    }
+
+    #Img1{
+        
+        width: 100%;
+        height: 100%
+    }
+    #Img2{
+        ;
+        width: 100%;
+        height: 100%
+    }
+     #Img3{
+        
+        width: 100%;
+        height: 100%
+     }
+    
+     #Img4{
+       
+        width: 100%;
+        height: 100%
+     }
+    
+     #Img5{
+        
+        width: 100%;
+        height: 100%
+     }
+
+   footer{
+       bottom:-30%
+   }
+
+    }
+
+
+
